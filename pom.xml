@@ -17,9 +17,10 @@
 	<modules>
 		<module>domain</module>
 		<module>service</module>
-		<module>email</module>
+		<module>email-app</module>
 		<module>repository</module>
 		<module>web</module>
+		<module>email-app</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>

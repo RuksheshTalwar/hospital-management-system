@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-//@AllArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @Entity
@@ -18,10 +18,4 @@ public class Doctor {
     private int id;
     private String name;
     private String specialist;
-
-    public Doctor(int id, String name, String specialist) {
-        this.id = id;
-        this.name = name;
-        this.specialist = specialist;
-    }
 }
